@@ -1,0 +1,39 @@
+﻿@media screen and (max-width: 500px) {
+    .list-content {
+        margin: 0 auto;
+        width: 96%
+    }
+}
+
+.archive-title {
+    margin: 1rem 0;
+    padding:0.5rem 0;
+    background-color:#f0f0f0;
+}
+
+.girdview-list-item {
+    height: 2.5rem;
+    border-bottom: 1px solid #d9d9d9;
+    line-height:2.5rem;
+}
+
+
+.list-pagination {
+    margin: 1.5em 0;
+}
+
+.list-pagination-label {
+    margin: 1rem 0;
+}
+
+.list-pagination-button {
+    border: 1px solid #d9d9d9;
+    text-decoration: none;
+    color: #000000;
+    padding: 2px 4px;
+    margin-right: 2px;
+}
+
+.list-pagination-dropdown {
+    padding: 2px 4px;
+}

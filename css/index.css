@@ -1,0 +1,92 @@
+﻿.layout-flex-parent {
+    display: flex;
+}
+
+.layout-flex-left {
+    flex: 1;
+}
+
+.layout-flex-right {
+    padding: 1.75rem 0 0 1.75rem;
+    width: 180px;
+}
+
+.girdview-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.girdview-index {
+    display: inline-block;
+    margin-top: 1.75rem;
+    width: 48%;
+}
+
+@media screen and (max-width: 500px) {
+    .layout-flex-parent,
+    .layout-flex-left,
+    .layout-flex-right,
+    .girdview-flex-space-between,
+    .girdview-index {
+        display: block;
+    }
+
+    .layout-flex-left {
+        width: 100%;
+    }
+
+    .layout-flex-right {
+        padding: 1.75rem;
+        width: 100%;
+    }
+
+    .girdview-index {
+        width: 96%;
+        margin: 1.75rem auto;
+    }
+}
+
+.girdview-index-title-div {
+    background-color: #f0f0f0;
+}
+
+.girdview-index-title {
+    font-size: 1.5rem;
+}
+
+.girdview-index-more {
+    vertical-align: bottom;
+    align-self: flex-end;
+}
+
+.girdview-index-item {
+    display: block;
+    height: 2rem;
+    border-bottom: 1px solid #d9d9d9;
+    vertical-align: bottom;
+    line-height: 2rem;
+}
+
+
+
+
+
+/*首页登录模块*/
+.login-text {
+    margin-top: 0.25rem;
+}
+
+.login-textbox,
+.login-textbox {
+    display: block;
+    margin-top: 0.25rem;
+    width: 100%;
+    height:1.5rem;
+}
+
+.login-button {
+    margin-top: 1rem;
+    width: 100%;
+    height: 1.5rem;
+    cursor:pointer;
+}

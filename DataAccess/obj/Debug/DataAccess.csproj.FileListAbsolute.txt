@@ -1,0 +1,5 @@
+D:\企业网站建设\web_news\DataAccess\bin\Debug\DataAccess.dll
+D:\企业网站建设\web_news\DataAccess\bin\Debug\DataAccess.pdb
+D:\企业网站建设\web_news\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\企业网站建设\web_news\DataAccess\obj\Debug\DataAccess.dll
+D:\企业网站建设\web_news\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,23 @@
+﻿@media screen and (max-width: 500px) {
+    .details-content {
+        margin: 0 auto;
+        width: 96%
+    }
+}
+
+.details-this-page {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    background-color: #f0f0f0;
+}
+
+.details-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.details-time {
+    text-align: center;
+    margin-bottom:1.5rem;
+}

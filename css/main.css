@@ -1,0 +1,124 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-form {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+}
+
+.girdview-checkbox {
+    margin: auto 8px;
+}
+
+.gridview_head {
+    text-align: left;
+    height: 30px;
+    color: #000;
+}
+
+.gridview_row {
+    height: 30px;
+    color: #000;
+}
+
+
+
+/*后台管理主页*/
+.layout-flex-parent {
+    display: flex;
+}
+
+.layout-flex-left {
+    width: 120px;
+    background-color: #f0f0f0;
+}
+
+.layout-flex-right {
+    flex: 1;
+    padding: 1rem 0 0 1rem;
+    margin: 0;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.main-signout {
+    margin-left: 1rem;
+    color: #f44226;
+}
+
+.main-iframe {
+    border: none;
+    height: 600px;
+    width: 100%;
+}
+
+
+
+/*ifrme-title*/
+.ifrme-title {
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #d9d9d9;
+}
+
+
+/*分页功能*/
+.pagination-button {
+    border: 1px solid #d9d9d9;
+    text-decoration: none;
+    color: #000000;
+    padding: 2px 4px;
+    margin-right: 2px;
+}
+
+.pagination-dropdown {
+    padding: 2px 4px;
+}
+
+
+
+
+.margin-top-bottom-rem {
+    margin: 1rem auto;
+}
+
+
+.textbox {
+    border: 1px solid #333;
+    width: 160px;
+    height: 24px;
+}
+
+.dropdownlist {
+    border: 1px solid #333;
+    height: 24px;
+}
+
+
+.button {
+    padding:2px 8px;
+    cursor:pointer;
+}

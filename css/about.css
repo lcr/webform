@@ -1,0 +1,11 @@
+﻿@media screen and (max-width: 500px) {
+    .page-about-content {
+        margin:0 auto;
+        width: 96%
+    }
+   
+}
+
+P {
+    margin: 2em 0;
+}
