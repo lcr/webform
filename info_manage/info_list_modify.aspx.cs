@@ -24,7 +24,6 @@ public partial class info_manage_info_add : System.Web.UI.Page
     }
     public void dr_load()
     {
-
         try
         {
             DataSet ds = new DataSet();
@@ -79,7 +78,7 @@ public partial class info_manage_info_add : System.Web.UI.Page
         }
         else
         {
-            Response.Write("<script>alert('你不是超级管理员！');location='info_add.aspx';</script>");
+            Response.Write("<script>alert('修改失败！你不是超级管理员');location='info_add.aspx';</script>");
         }
 
     }
@@ -117,7 +116,7 @@ public partial class info_manage_info_add : System.Web.UI.Page
         }
         else
         {
-            Response.Write("<script>alert('你不是超级管理员！');location='info_add.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='info_add.aspx';</script>");
         }
     }
 }

@@ -25,8 +25,7 @@ public partial class info_manage_news_list : System.Web.UI.Page
         }
     }
     public void user_load()
-    {
-        
+    {     
         ds = user.user_query();
         try
         {
@@ -83,8 +82,7 @@ public partial class info_manage_news_list : System.Web.UI.Page
         GridView1.DataBind();
     }
     protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
-    {
-        
+    {   
         string id = GridView1.DataKeys[e.RowIndex].Value.ToString();
         if (((user)Session["user"]).power=="超级管理员")
         {
@@ -92,13 +90,13 @@ public partial class info_manage_news_list : System.Web.UI.Page
             {
                 log.add_log_tofile(((user)Session["user"]).name, Request.UserHostAddress, System.DateTime.Now.ToString(), "删除用户");
                 log.add_log(((user)Session["user"]).name, Request.UserHostAddress, System.DateTime.Now.ToString(), "删除用户");
-                Response.Write("<script>alert('删除成功');location='user_list.aspx';</script>");
+                Response.Write("<script>alert('删除成功！');location='user_list.aspx';</script>");
             }
             else
-                Response.Write("<script>alert('删除失败');location='user_list.aspx';</script>");
+                Response.Write("<script>alert('删除失败！');location='user_list.aspx';</script>");
         }
         else
-            Response.Write("<script>alert('你不是超级管理员！');location='user_list.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='user_list.aspx';</script>");
     
     }
 

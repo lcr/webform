@@ -56,7 +56,7 @@
                             <Columns>
                                 <asp:TemplateField>
                                     <ItemTemplate>
-                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 17 ? Eval("title").ToString().Substring(0,17)+"..." : Eval("title")%></a>
+                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 21 ? Eval("title").ToString().Substring(0,21)+"..." : Eval("title")%></a>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -75,7 +75,7 @@
                             <Columns>
                                 <asp:TemplateField>
                                     <ItemTemplate>
-                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 17 ? Eval("title").ToString().Substring(0,17)+"..." : Eval("title")%></a>
+                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 21 ? Eval("title").ToString().Substring(0,21)+"..." : Eval("title")%></a>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -93,7 +93,7 @@
                             <Columns>
                                 <asp:TemplateField ControlStyle-BorderColor="red">
                                     <ItemTemplate>
-                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 17 ? Eval("title").ToString().Substring(0,17)+"..." : Eval("title")%></a>
+                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 21 ? Eval("title").ToString().Substring(0,21)+"..." : Eval("title")%></a>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -111,7 +111,7 @@
                             <Columns>
                                 <asp:TemplateField>
                                     <ItemTemplate>
-                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 17 ? Eval("title").ToString().Substring(0,17)+"..." : Eval("title")%></a>
+                                        <a class="girdview-index-item" href="info_show/details.aspx?id=<%#Eval("id")%>"><%#Eval("title").ToString().Length > 21 ? Eval("title").ToString().Substring(0,21)+"..." : Eval("title")%></a>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -135,7 +135,7 @@
         </div>
     </form>
     <footer>
-        <p>©2022 All Rights Reserved</p>
+        <p>©2023 All Rights Reserved</p>
     </footer>
     <script src="js/sideshow.js"></script>
 </body>

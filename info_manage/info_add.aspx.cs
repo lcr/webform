@@ -139,7 +139,7 @@ public partial class info_manage_info_add : System.Web.UI.Page
 
         }
         else
-            Response.Write("<script>alert('你不是超级管理员！');location='info_list.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='info_list.aspx';</script>");
 
 
     }

@@ -68,7 +68,7 @@
         </p>
     </div>
     <footer>
-        <p>©2022 All Rights Reserved</p>
+        <p>©2023 All Rights Reserved</p>
     </footer>
     <script src="js/sideshow.js"></script>
 

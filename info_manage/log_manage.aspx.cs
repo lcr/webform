@@ -115,7 +115,7 @@ public partial class info_manage_log_manage : System.Web.UI.Page
             }
         }
         else
-            Response.Write("<script>alert('你不是超级管理员！');location='log_manage.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='log_manage.aspx';</script>");
     }
     protected void CheckBox2_CheckedChanged(object sender, EventArgs e)
     {
@@ -152,7 +152,7 @@ public partial class info_manage_log_manage : System.Web.UI.Page
         Response.Write("<script>alert('成功删除" + num + "条记录！');location='log_manage.aspx'</script>");
         }
         else
-            Response.Write("<script>alert('你不是超级管理员！');location='log_manage.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='log_manage.aspx';</script>");
     }
 
 }

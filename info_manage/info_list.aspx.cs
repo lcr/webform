@@ -211,7 +211,7 @@ public partial class info_manage_info_list : System.Web.UI.Page
                 Response.Write("<script>alert('删除失败');location='info_list.aspx';</script>");
         }
         else
-            Response.Write("<script>alert('你不是超级管理员！');location='info_list.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='info_list.aspx';</script>");
     }
     protected void CheckBox2_CheckedChanged(object sender, EventArgs e)
     {
@@ -253,7 +253,7 @@ public partial class info_manage_info_list : System.Web.UI.Page
         }
         else
         {
-            Response.Write("<script>alert('你不是超级管理员！');location='info_list.aspx';</script>");
+            Response.Write("<script>alert('删除失败！你不是超级管理员');location='info_list.aspx';</script>");
         }
     }
 

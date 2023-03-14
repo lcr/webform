@@ -55,6 +55,6 @@ public partial class info_manage_user_add : System.Web.UI.Page
                 Response.Write("<script>alert('添加失败！');location='user_add.aspx'</script>");
         }
         else
-            Response.Write("<script>alert('你不是超级管理员！');location='info_list.aspx';</script>");
+            Response.Write("<script>alert('添加失败！你不是超级管理员');location='info_list.aspx';</script>");
     }
 }

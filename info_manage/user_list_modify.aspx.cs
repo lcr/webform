@@ -60,8 +60,9 @@ public partial class info_manage_user_list_modify : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        if (((user)Session["user"]).name == Label1.Text||((user)Session["user"]).power =="超级管理员")
-        {
+        //if (((user)Session["user"]).name == Label1.Text||((user)Session["user"]).power =="超级管理员")
+            if (((user)Session["user"]).power == "超级管理员")
+            {
             string sql = "update tb_user set password='" +
                tb_password.Text + "',power='" +
                DropDownList1.SelectedValue + "',tel='" +
@@ -73,16 +74,16 @@ public partial class info_manage_user_list_modify : System.Web.UI.Page
                 if (i > 0)
                     log.add_log_tofile(((user)Session["user"]).name, Request.UserHostAddress, System.DateTime.Now.ToString(), "修改用户信息");
                 log.add_log(((user)Session["user"]).name, Request.UserHostAddress, System.DateTime.Now.ToString(), "修改用户信息");
-                    Response.Write("<script>alert('修改成功');location='user_list.aspx';</script>");
+                    Response.Write("<script>alert('修改成功！');location='user_list.aspx';</script>");
             }
             catch
             {
-                Response.Write("<script>alert('修改失败');location='user_list.aspx';</script>");
+                Response.Write("<script>alert('修改失败！');location='user_list.aspx';</script>");
             }
         }
         else
         {
-            Response.Write("<script>alert('你不能修改');location='user_list.aspx';</script>");
+            Response.Write("<script>alert('修改失败！你不是超级管理员');location='user_list.aspx';</script>");
         }
      }
 
